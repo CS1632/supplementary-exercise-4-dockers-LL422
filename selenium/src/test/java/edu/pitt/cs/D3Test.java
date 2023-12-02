@@ -45,7 +45,7 @@ public class D3Test {
   }
   @Test
   public void tEST1LINKS() {
-    driver.get("http://localhost:8080/
+    driver.get("http://localhost:8080/");
     js.executeScript("document.cookie = \"1=false\";document.cookie = \"2=false\";document.cookie = \"3=false\";");
     {
       WebElement element = driver.findElement(By.linkText("Reset"));
